@@ -9,10 +9,8 @@ st.set_page_config(page_title="Tesfa Berhan VSLA", layout="wide")
 # የድርጅቱ ስም እና መግለጫ
 st.title("📊 VSLA መከታተያ - Google Sheets ስሪት")
 st.subheader("የተስፋ ብርሃን ህፃናትና ቤተሰብ ልማት ድርጅት")
-
-# ከ Google Sheets ጋር ግንኙነት መፍጠር
-# ማሳሰቢያ፡ የሺትህን ሊንክ እዚህ ጋር ባለው "url" ቦታ ተካው
-sheet_url = "የአንተ_Google_Sheet_Link_እዚህ_ይግባ"
+ 
+sheet_url = ](https://docs.google.com/spreadsheets/d/1vOt20fbuc-XBj-iKifiJmYABe5Cs5-A6u-pnmHQIdJc/edit?gid=0#gid=0)"
 conn = st.connection("gsheets", type=GSheetsConnection)
 
 # መረጃ መቀበያ ፎርም
